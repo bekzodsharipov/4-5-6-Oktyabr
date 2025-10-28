@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-5-6-Oktyabr</title>
+    <style>
+* { margin: 0; padding: 0; box-sizing: border-box; } body { overflow-x: hidden; } .bg { width: 100%; position: absolute; top: 0; left: 0; inset: 1; z-index: -1; } @media (min-width: 450px) { .bg { display: none; } } .container { position: relative; max-width: 490px; width: 100%; margin: 0 auto; padding: 23px 10px; display: flex; flex-direction: column; align-items: center; font-family: sans-serif; overflow-x: hidden; background-image: url(./images/bg.avif); background-repeat: no-repeat; } .header { max-width: 348px; width: 100%; border-radius: 12px; padding: 7px 17px; display: flex; align-items: center; gap: 12px; margin-bottom: 15px; min-width: 313px; background: linear-gradient(90deg, #4E4E4E 0%, #A0A0A0 20.19%, #4E4E4E 44.71%, #4E4E4E 60.1%, #A0A0A0 75.96%, #4E4E4E 100%); } @media (max-width: 350px) { .header { padding: 7px 10px; } } .header__left { max-width: 83px; width: 100%; background-color: #484848; border-radius: 10px; padding: 7px 8px 8px 9px; font-weight: 700; font-size: 14px; line-height: 100%; color: white; } .header__line { height: 31px; border: 1px solid white; border-radius: 10px; } .header__text { color: white; font-weight: 600; font-size: 16px; letter-spacing: -2%; text-wrap: nowrap; } .title { font-family: Degular Display, sans-serif; font-weight: 700; font-size: clamp(20px, 6.9vw, 30px); line-height: 120%; letter-spacing: -2%; text-align: center; text-transform: uppercase; color: #360019; margin-bottom: 4px; max-width: 439px; } .title span { color: #2D8FFF; } .expert__img { object-fit: contain; max-width: clamp(280px, 70vw, 322px); width: 100%; height: auto; margin-bottom: -155px; filter: drop-shadow(0px 4px 35px 0px #E9A6CD80); } .event__btn { background-color: #FFD043; box-shadow: 0px 6px 0px 0px #D19D00; max-width: 386px; width: 100%; padding: clamp(20px, 10vw, 28px) 10px; border-radius: 13px; border: none; font-family: Poppins, sans-serif; font-weight: 700; cursor: pointer; font-size: clamp(22px, 7vw, 24px); line-height: 151%; text-transform: uppercase; color: #553B00; display: flex; align-items: center; justify-content: center; gap: 10px; position: relative; } .event__btn__light { position: absolute; top: -65px; } .event__btn__arrow { width: 25px; height: 25px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background-color: #553B00; } .event__list__title { font-family: FindSans Pro, sans-serif; font-weight: 700; font-size: clamp(22px, 6vw, 26px); line-height: 151%; text-align: center; text-transform: uppercase; color: #000F24; margin-top: 48px; margin-bottom: 12px; } .event__list { max-width: 421px; display: grid; grid-template: 1fr; gap: 10px; list-style: none; margin-bottom: 15px; } .event__list__item { display: flex; align-items: center; gap: 15px; border-radius: 20px; border: 1px solid #2080FF; padding-right: 33px; overflow: hidden; } .expert__shadow { transform: translateY(37px); } .event__list__item__left { background-color: #4293FF; opacity: 70%; flex-shrink: 0; padding: clamp(15px, 5vw, 20px) 8px; min-width: 115px; height: 100%; display: flex; align-items: center; justify-content: center; border: 1px solid #2080FF; flex-direction: column; gap: 10px; border-bottom-right-radius: 20px; font-family: FindSans Pro, sans-serif; line-height: 26px; font-weight: 700; } .event__list__item__left__date { font-size: clamp(20px, 5vw, 22px); color: white; } .event__list__item__text { font-weight: 400; font-size: clamp(13px, 3vw, 17px); line-height: 20px; padding-top: 20px; padding-bottom: 20px; } .blur-up { filter: blur(10px); transition: filter 0.4s ease-out; }
+    </style>
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/modal.css" />
+    </noscript>
+    <link rel="preconnect" href="https://connect.facebook.net" />
+    <link rel="preconnect" href="https://www.facebook.com" />
+    <meta name="facebook-domain-verification" content="3282ca9yll1wjudbnl7x74vr1yby51" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="header__left">Master <br> klass</p>
+            <div class="header__line"></div>
+            <p class="header__text">4-5-6-Oktyabr</p>
+            <div class="header__line"></div>
+            <p class="header__text">21:00</p>
+        </div>
+        <h1 class="title">3 kunda <span>“boshqalar uchun yashovchi”</span> ayoldan o‘zini qadrlaydigan ayolga aylaning
+        </h1>
+
+        <img src="./images/speaker-mini.avif" data-src="./images/speaker.avif" alt="speaker img"
+            class="expert__img blur-up" decoding="async" loading="lazy" width="344" height="478">
+
+
+        <img class="expert__shadow" src="./images/light.avif" loading="lazy" decoding="async" alt="light">
+        <button class="event__btn registerBtn">
+            bepul qatnashish
+            <span class="event__btn__arrow">
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.783997 0.100403C0.960592 0.100492 1.13267 0.159877 1.26154 0.270325L7.09357 5.27032L7.18048 5.36017C7.20594 5.39277 7.22803 5.42772 7.24591 5.46466C7.28165 5.53857 7.29962 5.61883 7.29962 5.70001C7.29962 5.7812 7.28165 5.86146 7.24591 5.93536C7.22803 5.9723 7.20594 6.00726 7.18048 6.03986L7.09357 6.1297L1.26154 11.1297C1.1976 11.1845 1.12249 11.2276 1.04083 11.2567C0.959189 11.2856 0.871671 11.2996 0.783997 11.2996C0.696355 11.2996 0.608792 11.2856 0.527161 11.2567C0.445397 11.2276 0.369484 11.1846 0.305481 11.1297C0.241488 11.0748 0.189773 11.0082 0.154114 10.9344C0.118559 10.8607 0.100442 10.781 0.100403 10.7C0.100403 10.6188 0.118406 10.5386 0.154114 10.4647C0.189726 10.391 0.241607 10.3252 0.305481 10.2703L5.63751 5.70001L0.305481 1.1297C0.17624 1.01877 0.100403 0.864479 0.100403 0.700012C0.100481 0.535534 0.176155 0.381218 0.305481 0.270325C0.434445 0.159778 0.607249 0.100403 0.783997 0.100403Z"
+                        fill="white" stroke="white" stroke-width="0.2" />
+                </svg>
+            </span>
+        </button>
+        <h2 class="event__list__title">3 kunlik darsimda o’rganasiz:</h2>
+        <ul class="event__list">
+            <li class="event__list__item">
+                <p class="event__list__item__left">
+                    <span class="event__list__item__left__date">1-kun</span>
+                </p>
+                <p class="event__list__item__text">
+                    Ozingizni boshqalarga yoqish uchun emas, chin dildan sevish uchun yashashni
+                </p>
+            </li>
+            <li class="event__list__item">
+                <p class="event__list__item__left">
+                    <span class="event__list__item__left__date">2-kun</span>
+                </p>
+                <p class="event__list__item__text">
+                    “Pul menda turmaydi” menga erim bermaydi degan fikrni butunlay o‘chiradigan
+                    3 baraka texnikasi!
+                </p>
+            </li>
+            <li class="event__list__item">
+                <p class="event__list__item__left">
+                    <span class="event__list__item__left__date">3-kun</span>
+                </p>
+                <p class="event__list__item__text">
+                    Ayollik kuchingizni uyg‘otib, yoringiz uchun yagona ayolga aylanadigan 7 sir!
+                </p>
+            </li>
+        </ul>
+        <button class="event__btn registerBtn">
+            bepul qatnashish
+            <span class="event__btn__arrow">
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.783997 0.100403C0.960592 0.100492 1.13267 0.159877 1.26154 0.270325L7.09357 5.27032L7.18048 5.36017C7.20594 5.39277 7.22803 5.42772 7.24591 5.46466C7.28165 5.53857 7.29962 5.61883 7.29962 5.70001C7.29962 5.7812 7.28165 5.86146 7.24591 5.93536C7.22803 5.9723 7.20594 6.00726 7.18048 6.03986L7.09357 6.1297L1.26154 11.1297C1.1976 11.1845 1.12249 11.2276 1.04083 11.2567C0.959189 11.2856 0.871671 11.2996 0.783997 11.2996C0.696355 11.2996 0.608792 11.2856 0.527161 11.2567C0.445397 11.2276 0.369484 11.1846 0.305481 11.1297C0.241488 11.0748 0.189773 11.0082 0.154114 10.9344C0.118559 10.8607 0.100442 10.781 0.100403 10.7C0.100403 10.6188 0.118406 10.5386 0.154114 10.4647C0.189726 10.391 0.241607 10.3252 0.305481 10.2703L5.63751 5.70001L0.305481 1.1297C0.17624 1.01877 0.100403 0.864479 0.100403 0.700012C0.100481 0.535534 0.176155 0.381218 0.305481 0.270325C0.434445 0.159778 0.607249 0.100403 0.783997 0.100403Z"
+                        fill="white" stroke="white" stroke-width="0.2" />
+                </svg>
+            </span>
+        </button>
+        <div class="lazyLoad"></div>
+    </div>
+    <img src="./images/bg.avif" alt="bg" class="bg" decoding="async" loading="lazy">
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul darsga <br />
+                    RO'YXATDAN O'TISH
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="name">Ismingizni kiriting:</label>
+                    <input class="HomeFormRowInput" type="text" id="name" name="name" autocomplete="name" />
+                    <p class="homeFormErrorText" id="nameError" style="display: none">
+                        Iltimos, ismingizni kiriting
+                    </p>
+                </div>
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+                    <div class="phone-input-container">
+                        <div class="country-selector">
+                            <div class="selected-country" id="selectedCountry">
+                                <span id="selectedCountryCode">+998</span>
+                                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                            <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+                        </div>
+                        <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+                            autocomplete="tel" />
+                    </div>
+                    <p class="homeFormErrorText" id="phoneError" style="display: none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    ro’yxatdan o’tish </button>
+            </form>
+        </div>
+    </div>
+    <script defer src="./js/app.js"></script>
+    <!-- Meta Pixel Code -->
+    <script defer>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1157673429638769');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1157673429638769&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</body>
+
+</html>
